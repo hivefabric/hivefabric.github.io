@@ -244,15 +244,15 @@ export default function App() {
                 </div>
                 <div className="space-y-3 font-mono text-xs">
                   <div className="flex justify-between items-center text-gray-300">
-                    <span>> initializing_swarm...</span>
+                    <span> initializing_swarm...</span>
                     <span className="text-teal-400">OK</span>
                   </div>
                   <div className="flex justify-between items-center text-gray-300">
-                    <span>> connecting_nodes(14,203)</span>
+                    <span> connecting_nodes(14,203)</span>
                     <span className="text-teal-400">CONNECTED</span>
                   </div>
                   <div className="flex justify-between items-center text-gray-300">
-                    <span>> deploying_agent: market-watcher-v2</span>
+                    <span> deploying_agent: market-watcher-v2</span>
                     <span className="text-yellow-400">PENDING</span>
                   </div>
                   <div className="p-3 bg-black/30 rounded border-l-2 border-teal-500 mt-4">
