@@ -1,0 +1,5 @@
+{
+  "name": "Hive - Distributed Agent Fabric",
+  "description": "The open fabric for autonomous agents. Run intelligent agents on a distributed swarm.",
+  "requestFramePermissions": []
+}
