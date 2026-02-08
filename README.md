@@ -15,6 +15,11 @@ View your app in AI Studio: https://ai.studio/apps/drive/1ylFuoTOQAs5T4b1h6RBm_d
 
 1. Install dependencies:
    `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
+2. Set the following variables in `.env.local` (create the file if missing):
+   ```
+   GEMINI_API_KEY=your_key_here
+   VITE_GA_MEASUREMENT_ID=G-XXXXXXXXXX
+   ```
+   The analytics ID is optional; leaving it blank disables Google Analytics scripts.
 3. Run the app:
    `npm run dev`
